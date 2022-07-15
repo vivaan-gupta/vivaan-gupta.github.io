@@ -4,7 +4,7 @@ show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
 mathjax: true
-markdown: redcarpet
-redcarpet:
-  extensions: [footnotes]
+markdown: kramdown
+kramdown:
+  input: GFM
 
