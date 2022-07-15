@@ -34,6 +34,7 @@ We will be proving the von Neumann-Morgernstern Theorem
   > From [A.2](#A.2), we know that $$T\cap W \neq \emptyset$$ 
   > Thus $$\exists \omega\in T\cap W : \omega a + (1-\omega)c \succcurlyeq b \land b \succcurlyeq \omega a + (1-\omega)c$$
   > $$\exists \omega\in T\cap W : b \sim \omega a + (1-\omega)c$$
+  > 
   > Q.E.D
 [](-----------------------------)
 2. <a id="1.2"></a> If $$\mu_i a +(1-\mu_i)b \sim c$$ and $$\mu = \underset{i\to\infty}{lt} \mu_i$$, then $$\mu a+(1-\mu b)\sim c$$
@@ -44,9 +45,9 @@ We will be proving the von Neumann-Morgernstern Theorem
   > This allows us to say that $$\mu \in \succcurlyeq$$-upper contour and $$\mu \in \succcurlyeq$$-lower contour
   > $$\mu a +(1-\mu)b \succcurlyeq c$$ and $$c \succcurlyeq \mu a +(1-\mu)b$$
   > Hence we can say that $$\mu a +(1-\mu)b \sim c$$
+  > 
   > Q.E.D
-
- Note : The set containing all mixtures indifferent to $$c$$ also contain its limit point. And in light of [A.7](#A.7), it will also be closed.
+  > Note : The set containing all mixtures indifferent to $$c$$ also contain its limit point. And in light of [A.7](#A.7), it will also be closed.
 [](-----------------------------)
 3. <a id="1.3"></a> $$\forall a,b\in S : a\succ b \implies a\succ \frac{1}{2}a + \frac{1}{2}b \succ b$$
   > **Proof**
@@ -63,6 +64,7 @@ We will be proving the von Neumann-Morgernstern Theorem
   > However, $$\frac{\mu_0}{2} > \frac{\lambda\mu_0}{4}$$ which contradicts the choice of $$\mu_0$$ as the least element in the set $$\exists x\in T : x=\frac{\lambda\mu_0}{2}$$
   > Similarly, we can show the same for $$a \succ b \succcurlyeq \frac{1}{2}a + \frac{1}{2}b$$
   > Thus $$a\succ \frac{1}{2}a + \frac{1}{2}b \succ b$$
+  > 
   > Q.E.D
 [](-----------------------------)
 4.  <a id="1.4"></a> $$\forall a,b\in S : a \succ b \implies \forall \mu\in(0,1) : a \succ \mu a + (1-\mu)b \succ b$$
@@ -75,6 +77,7 @@ We will be proving the von Neumann-Morgernstern Theorem
   > Let $$\mu = lt \rho'$$, i.e $$\mu$$ is a limit of a sequence of rationals
   > From [Axiom 2](#continuity), since $$\succcurlyeq$$-upper contour and $$\succcurlyeq$$-lower contour sets are closed, given [A.7](#A.7), this $$\mu$$ will be also be in $$\succcurlyeq$$-upper contour and $$\succcurlyeq$$-lower contour sets of $$a$$ and $$b$$ respectively
   > Thus we can say that $$a \succ \mu a + (1-\mu)b \succ b$$
+  > 
   > Q.E.D
 [](-----------------------------)
 5. <a id="1.5"></a> $$\forall a,a'\in S : a\sim a' \implies \mu a + (1-\mu)a' \sim a$$
@@ -85,6 +88,7 @@ We will be proving the von Neumann-Morgernstern Theorem
   > Let $$\mu = lt \rho'$$, i.e $$\mu$$ is a limit of a sequence of rationals
   > From [1.2](#1.2), we know that the indifference set is closed, given [A.7](#A.7), this $$\mu$$ will also be in the indifference set
   > Hence $$\mu a + (1-\mu)a' \sim a$$
+  > 
   > Q.E.D
 [](-----------------------------)
 6. <a id="1.6"></a> $$\forall a,a'\in S : a\sim a' \implies \forall b \in S, \mu\in[0,1] : \mu a + (1-\mu)b \sim \mu a' + (1-\mu)b$$
@@ -92,6 +96,7 @@ We will be proving the von Neumann-Morgernstern Theorem
   > Let us assume that $$a\sim a'$$
   > - $$a\sim a' \sim b$$
   > From [1.5](#1.5) we can say that, $$a\sim b \implies a \sim \mu a + (1-\mu) b \sim a' \sim \mu a' + (1-\mu) b$$
+  > 
   > Q.E.D
   > - $$a\sim a' \succ b$$
   > Given [Axiom 3](#independence), we can say that $$a\sim a' \implies \frac{1}{2}a + \frac{1}{2}b \sim \frac{1}{2}a' + \frac{1}{2}b$$
@@ -102,9 +107,11 @@ We will be proving the von Neumann-Morgernstern Theorem
   > Thus $$\rho_i$$ must also be in $$T$$ (and $$W$$)
   > Given [Axiom 2](#continuity), we can say that $$\mu \in T$$, hence $$\mu a + (1-\mu)b \succcurlyeq \mu a' + (1-\mu)b$$ (and $$\mu a' + (1-\mu)b \succcurlyeq \mu a + (1-\mu)b$$)
   > Thus we can say that $$\mu a + (1-\mu)b \sim \mu a' + (1-\mu)b$$
+  > 
   > Q.E.D
   > - $$b \succ a\sim a'$$
   > Similar argument as the last case, just go for $$\succcurlyeq$$-lower contour sets instead
+  > 
   > Q.E.D
 [](-----------------------------)
 7. <a id="1.7"></a> $$\forall a,b \in S : a \succ b \implies \forall \lambda,\mu\in(0,1) : \lambda > \mu \iff \lambda a + (1-\lambda)b \succ \mu a + (1-\mu)b$$
@@ -117,6 +124,7 @@ We will be proving the von Neumann-Morgernstern Theorem
   > From [1.4](#1.4), we can say that $$\lambda a + (1-\lambda)b \succ b \implies \lambda a + (1-\lambda)b \succ \frac{\mu}{\lambda}[\lambda a + (1-\lambda)b] + (1-\frac{\mu}{\lambda})b \succ b$$
   > $$\frac{\mu}{\lambda}[\lambda a + (1-\lambda)b] + (1-\frac{\mu}{\lambda})b = \mu a + (1-\mu)b$$
   > Thus we can say that $$\lambda a + (1-\lambda)b \succ \mu a + (1-\mu)b$$
+  > 
   > Q.E.D
   > - $$\impliedby$$
   > Let us assume that $$\lambda a + (1-\lambda)b \succ \mu a + (1-\mu)b$$
@@ -124,6 +132,7 @@ We will be proving the von Neumann-Morgernstern Theorem
   > From [1.4](#1.4), we can say that $$a\succ b \implies a\succ \lambda a + (1-\lambda)b \succ b$$
   > From [1.4](#1.4), we can say that $$\lambda a + (1-\lambda)b \succ b \implies \lambda a + (1-\lambda)b \succ \frac{\mu}{\lambda}[\lambda a + (1-\lambda)b] + (1-\frac{\mu}{\lambda})b \succ b$$
   > Thus $$\frac{\mu}{\lambda} < 1 \implies \mu < \lambda$$
+  > 
   > Q.E.D
 [](-----------------------------)
 8. <a id="1.8"></a> $$\mu$$ in [1.1](#1.1) is unique
@@ -139,6 +148,7 @@ We will be proving the von Neumann-Morgernstern Theorem
   > This gives us a contradiction
   >
   > Hence $$\mu_1 = \mu_2$$
+  > 
   > Q.E.D
 
 [](-----------------------------)
@@ -249,6 +259,7 @@ Which will give us an [order preserving](#OP), [linear](#MP) structure with $$M_
  > Thus $$[a,b]$$ must be disconnected
  > From [A.1](#A.1), we know that $$[a,b]$$ is connected
  > This gives us a contradiction, hence $$P\cap Q \neq \emptyset$$
+ > 
  > Q.E.D
 [](-----------------------------)
 3. <a id="A.3"></a> In $$(X,d)$$ all [adherent points](#adherent) of $$A\subseteq X$$ are either [interior points](#interior-pt) or [boundary points](#boundary-pt) of $$A$$
@@ -262,6 +273,7 @@ Which will give us an [order preserving](#OP), [linear](#MP) structure with $$M_
   > Thus, $$\exists r>0 : B(x_0, r) \cap A = \emptyset$$
   > This contradicticts the definition of an adherent point
   > Thus $$x$$ must be either an interior point or a boundary point
+  > 
   > Q.E.D
 [](-----------------------------)
 4. <a id="A.4"></a> In $$(X,d)$$, $$A\subseteq X$$ is a [closed set](#closed-set) if and only if  $$A = \overline{A}$$
@@ -281,6 +293,7 @@ Which will give us an [order preserving](#OP), [linear](#MP) structure with $$M_
   > Thus $$y$$ must be an exterior point of $$A$$
   > $$y$$ exterior point $$\implies y$$ is not an adherent point
   > Thus $$A = \overline{A}$$
+  > 
   > Q.E.D
   > - $$\impliedby$$
   > Let us take an arbitrary set $$A$$ such that $$A=\overline{A}$$
@@ -288,6 +301,7 @@ Which will give us an [order preserving](#OP), [linear](#MP) structure with $$M_
   > From [A.3](#A.3) we can say that $$x$$ is either an interior point or a boundary point of $$A$$
   > All points in $$A$$ are either boundary points of $$A$$ or interior points of $$A$$
   > $$\partial A \subseteq A$$, hence $$A$$ is closed
+  > 
   > Q.E.D
 [](-----------------------------)
 5. <a id="A.5"></a> In $$(X,d)$$, if $$A\subseteq X$$ then all [limit points](#limit-pt) of $$A$$ are also [adherent points](#adherent-pt) of $$A$$
@@ -297,6 +311,7 @@ Which will give us an [order preserving](#OP), [linear](#MP) structure with $$M_
   > $$B(x, r)\setminus\{x\}\subseteq B(x, r)$$
   > Hence we can say that $$\forall r>0 : B(x, r) \cap A \neq \emptyset$$
   > Thus $$x$$ is an adherent point
+  > 
   > Q.E.D
 [](-----------------------------)
 6. <a id="A.6"></a> Every [adherent point](#adherent-pt) of $$A$$ that is not a [limit point](#limit-pt) of $$A$$ is in $$A$$
@@ -307,6 +322,7 @@ Which will give us an [order preserving](#OP), [linear](#MP) structure with $$M_
   > Since $$x$$ is not a limit point,  it must be the case that $$\exists r>0 : B(x, r)\setminus\{x\} \cap A = \emptyset$$
   > Thus we can say that $$\exists r>0 : B(x,r)\cap A \neq \emptyset \land B(x,r)\setminus\{x\}\cap A = \emptyset$$
   > This implies that $$x\in A$$
+  > 
   > Q.E.D
 [](-----------------------------)
 7. <a id="A.7"></a> In $$(X,d)$$, $$A\subseteq X$$ is a [closed set](#closed-set) if and only if  $$A$$ contains all its [limit points](#limit-pt)
@@ -317,6 +333,7 @@ Which will give us an [order preserving](#OP), [linear](#MP) structure with $$M_
   > From [A.6](#A.6), we know that any adherent point of $$A$$ that is not a limit point is in $$A$$ itself
   > That is to say that if a set contains all its limit points it will also contain all its adherent points
   > Thus we can say that $$A$$ is closed $$\iff A$$ contains all its limit points
+  > 
   > Q.E.D
 
 
