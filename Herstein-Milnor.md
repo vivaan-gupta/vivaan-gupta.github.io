@@ -17,7 +17,7 @@ modified: '2022-07-12T17:41:50.899Z'
 [](--- lower contour --> everything worse than me ; upper contour --> everything better than me)
 ## Axioms
 1. <a id="weak-order"></a> **Weak Order** :  $$\succcurlyeq$$ on $$S$$ is complete and transitive
-2. <a id="continuity"></a> **Archimedean Continuity** : $$\forall a,b,c\in S : \{\alpha ~|~ \alpha a + (1-\alpha)b \succcurlyeq c\}$$ and $$\{\alpha ~|~ c \succcurlyeq \alpha a + (1-\alpha)b \}$$, i.e $$\succcurlyeq$$-upper contour and lower contour, are [closed](#closed-set)
+2. <a id="continuity"></a> **Archimedean Continuity** : $$\forall a,b,c\in S : \{\alpha ~\vert~ \alpha a + (1-\alpha)b \succcurlyeq c\}$$ and $$\{\alpha ~|~ c \succcurlyeq \alpha a + (1-\alpha)b \}$$, i.e $$\succcurlyeq$$-upper contour and lower contour, are [closed](#closed-set)
 3. <a id="independence"></a> **Independence** : $$a,a'\in S : a\sim a' \implies \forall b\in S : \frac{1}{2}a + \frac{1}{2}b \sim \frac{1}{2}a' + \frac{1}{2}b$$
 
 ## Results
@@ -186,7 +186,7 @@ Which will give us an [order preserving](#OP), [linear](#MP) structure with $$M_
 ## Appendix
 [](-----------------------------)
 ### Other Definitions (Point-set Topology) [^0]
-- <a id="ball"></a> **Ball** : Let $$(X, d)$$ be a metric space, let us take $$x_0\in X$$ and $$r>0$$ then we can define $$B_{(X,d)}(x_0, r) := \{x\in X ~|~ d(x, x_0) < r\}$$
+- <a id="ball"></a> **Ball** : Let $$(X, d)$$ be a metric space, let us take $$x_0\in X$$ and $$r>0$$ then we can define $$B_{(X,d)}(x_0, r) := \{x\in X ~\vert~ d(x, x_0) < r\}$$
 
 - <a id="bounded-set"></a> **Bounded Set** : Let $$(X, d)$$ be a metric space and let $$E\subseteq X$$, then $$Y$$ is bounded if and only if there is a [ball](#ball) that contains the set, i.e $$\exists B(x,r)\subseteq X : Y\subseteq B(x,r)$$
 
@@ -212,7 +212,7 @@ Which will give us an [order preserving](#OP), [linear](#MP) structure with $$M_
 
 - <a id="connected-space"></a> **Connected Space** : Let $$(X, d)$$ be a metric space, then $$X$$ is a connected if and only if $$X\neq\emptyset$$ and $$X$$ is not [disconnected](#disconnected-space)
 
-- <a id="connected-set"></a> **Connected Set** : Let $$(X, d)$$ be a metric space, then $$Y\subseteq X$$ is a connected set if and only if the metric space $$(Y, d|_{Y\times Y})$$ is [connected](#connected-space)
+- <a id="connected-set"></a> **Connected Set** : Let $$(X, d)$$ be a metric space, then $$Y\subseteq X$$ is a connected set if and only if the metric space $$(Y, d\vert_{Y\times Y})$$ is [connected](#connected-space)
 
 [](-----------------------------)
 ### Other Results
