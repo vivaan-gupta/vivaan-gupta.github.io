@@ -1,14 +1,9 @@
 ---
 layout: default
 ---
-Can you see this? [link](./Herstein-Milnor.html)
-# Heading 1
+Hi, I am Vivaan. This is where I store my notes and other work.
 
-what about this \\(\mu_0\\) ? looks good? [^1]
-and 
+# Decision Theory
+- [Standard Choice](./Standard-Choice.html)
+- [von Neumann-Morgernstern Theorem](./Herstein-Milnor.html)
 
-\\[\sum_{0}^{\infty}\\]
-
-check2
-
-[^1]: This??
