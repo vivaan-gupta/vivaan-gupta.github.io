@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-Can you see this? [link](./Herstein-Milnor.md)
+Can you see this? [link](./Herstein-Milnor.html)
 # Heading 1
 
 what about this \\(\mu_0\\) ? looks good? [^1]
