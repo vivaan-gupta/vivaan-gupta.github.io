@@ -47,6 +47,7 @@ We will be proving the von Neumann-Morgernstern Theorem
   > Hence we can say that $$\mu a +(1-\mu)b \sim c$$
   > 
   > Q.E.D
+  > 
   > Note : The set containing all mixtures indifferent to $$c$$ also contain its limit point. And in light of [A.7](#A.7), it will also be closed.
 [](-----------------------------)
 3. <a id="1.3"></a> $$\forall a,b\in S : a\succ b \implies a\succ \frac{1}{2}a + \frac{1}{2}b \succ b$$
