@@ -4,5 +4,4 @@ show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
 markdown: kramdown
-kramdown:
-  math_engine: katex
+
