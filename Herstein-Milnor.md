@@ -185,7 +185,8 @@ Which will give us an [order preserving](#OP), [linear](#MP) structure with $$M_
 [](-----------------------------)
 ## Appendix
 [](-----------------------------)
-### Other Definitions (Point-set Topology) [^0]
+### Other Definitions (Point-set Topology) 
+[^0]
 - <a id="ball"></a> **Ball** : Let $$(X, d)$$ be a metric space, let us take $$x_0\in X$$ and $$r>0$$ then we can define $$B_{(X,d)}(x_0, r) := \{x\in X ~⎮~ d(x, x_0) < r\}$$
 
 - <a id="bounded-set"></a> **Bounded Set** : Let $$(X, d)$$ be a metric space and let $$E\subseteq X$$, then $$Y$$ is bounded if and only if there is a [ball](#ball) that contains the set, i.e $$\exists B(x,r)\subseteq X : Y\subseteq B(x,r)$$
@@ -202,7 +203,7 @@ Which will give us an [order preserving](#OP), [linear](#MP) structure with $$M_
 
 - <a id="adherent"></a> **Adherent Point** : Let $$(X, d)$$ be a metric space, let $$E\subseteq X$$ and let $$x_0\in X$$, then we can say that $$x_0$$ is an adherent point of $$E$$ if $$\forall r>0 : B(x_0, r)\cap E \neq \emptyset$$
 
-- <a id="limit-pt"></a> **Limit Point** : Let $$(X, d)$$ be a metric space, let $$E\subseteq X$$ and let $$x_0\in X$$, then we can say that $$x_0$$ is an limit point of $$E$$ if $$\forall r>0 : B(x_0, r)\setminus\{x_0\} \cap E \neq \emptyset$$[^1]
+- <a id="limit-pt"></a> **Limit Point** : Let $$(X, d)$$ be a metric space, let $$E\subseteq X$$ and let $$x_0\in X$$, then we can say that $$x_0$$ is an limit point of $$E$$ if $$\forall r>0 : B(x_0, r)\setminus\{x_0\} \cap E \neq \emptyset$$ [^1]
 
 - <a id="closure"></a>  **Closure Set** : The set of all [adherent points](#adherent) of $$E\subseteq X$$ is called the closure set of $$E$$, denoted by $$\overline{E}$$
 
@@ -213,6 +214,10 @@ Which will give us an [order preserving](#OP), [linear](#MP) structure with $$M_
 - <a id="connected-space"></a> **Connected Space** : Let $$(X, d)$$ be a metric space, then $$X$$ is a connected if and only if $$X\neq\emptyset$$ and $$X$$ is not [disconnected](#disconnected-space)
 
 - <a id="connected-set"></a> **Connected Set** : Let $$(X, d)$$ be a metric space, then $$Y\subseteq X$$ is a connected set if and only if the metric space $$(Y, d⎮_{Y\times Y})$$ is [connected](#connected-space)
+
+[^0]: All definitions borrowed from <u>Analysis II, Tao, 2016</u>
+[^1]: Borrowed from [here](https://math.stackexchange.com/questions/1686220/difference-between-adherent-point-boundary-point-and-limit-point)
+
 
 [](-----------------------------)
 ### Other Results
@@ -314,15 +319,5 @@ Which will give us an [order preserving](#OP), [linear](#MP) structure with $$M_
   > That is to say that if a set contains all its limit points it will also contain all its adherent points
   > Thus we can say that $$A$$ is closed $$\iff A$$ contains all its limit points
   > Q.E.D
-
-
-
-
-
-
-[](-----------------------------)
-[^0]: All definitions borrowed from <u>Analysis II, Tao, 2016</u>
-[^1]: Borrowed from [here](https://math.stackexchange.com/questions/1686220/difference-between-adherent-point-boundary-point-and-limit-point)
-
 
 
