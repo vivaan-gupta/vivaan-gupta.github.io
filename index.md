@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-Hi, I am Vivaan. This is where I store my notes and other work.
+I am still in the process of making this website, but you can find my uploads below.
 
 # Decision Theory
 - [Standard Choice](./Standard-Choice.html)
