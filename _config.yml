@@ -1,12 +1,8 @@
 title: Notes
 description: Proofs and Derivations
-show_downloads: false
+show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
-
-linkedin_username: vivaan-gupta
-    
-mathjax: true
 markdown: kramdown
 kramdown:
   input: GFM
