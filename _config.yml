@@ -3,7 +3,10 @@ description: Proofs and Derivations
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
-email: vivaan.gupta.1427@gmail.com
+
+social_links:
+    linkedin: vivaan-gupta
+    
 mathjax: true
 markdown: kramdown
 kramdown:
