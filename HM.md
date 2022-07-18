@@ -3,7 +3,7 @@ title: Mixture Space Theorem
 created: '2022-07-03T07:42:28.017Z'
 modified: '2022-07-18T07:18:44.990Z'
 ---
-I will prove vNM by proving the Mixture Space Theorem of Herstein \& Milnor. This result will be invoked again when proving the Anscombe-Aumann Thoerem
+I will prove vNM by proving the Mixture Space Theorem of Herstein & Milnor. This result will be invoked again when proving the Anscombe-Aumann Thoerem
 
 # Herstein - Milnor
 
