@@ -2,7 +2,6 @@
 title: Herstein - Milnor
 created: '2022-07-03T07:42:28.017Z'
 modified: '2022-07-18T07:18:44.990Z'
-katex: true
 ---
 
 # Herstein - Milnor
@@ -154,14 +153,10 @@ katex: true
     $$\to \alpha \mu_{ab}(x)[a-b] + \mu_{ab}(y)[a-b] - \alpha \mu_{ab}(y)[a-b] + b \sim \mu' a + (1-\mu')b$$      
     $$\to [a-b] (\alpha \mu_{ab}(x) + (1-\alpha)\mu_{ab}(y)) + b \sim \mu' a + (1-\mu')b$$      
     $$\to (\alpha \mu_{ab}(x) + (1-\alpha)\mu_{ab}(y)) a + (1-(\alpha \mu_{ab}(x) + (1-\alpha)\mu_{ab}(y)))b \sim \mu' a + (1-\mu')b$$      
-    Hence it must be the case that $$\mu' = \alpha \mu_{ab}(x) + (1-\alpha)\mu_{ab}(y)$$, giving us a [linear](#MP) structure in $$\mu_{ab}(.)$$      
-
-    However, this only works for $$S_{ab}$$ and not the entire [mixture set](#MS) $$S$$. In order to make it work for the entire $$S$$ let us take two mixtures $$r_0, r_1 \in S_{ab}$$ such that $$r_1 \succ r_0$$. Now take $$a,b$$ such that $$r_0, r_1\in S_{ab}$$ and define for $$x\in S_{ab}$$ 
-
-    $$M_{ab}(x) = \frac{\mu_{ab}(x) - \mu_{ab}(r_0)}{\mu_{ab}(r_1) - \mu_{ab}(r_0)}$$  
-
-
-    Which will give us an [order preserving](#OP), [linear](#MP) structure with $$M_{ab}(r_0) = 0$$ and $$M_{ab}(r_1) = 1$$. Essentially we have just fixed two points and normalized the scale.    
+    Hence it must be the case that $$\mu' = \alpha \mu_{ab}(x) + (1-\alpha)\mu_{ab}(y)$$, giving us a [linear](#MP) structure in $$\mu_{ab}(.)$$    
+    However, this only works for $$S_{ab}$$ and not the entire [mixture set](#MS) $$S$$. In order to make it work for the entire $$S$$ let us take two mixtures $$r_0, r_1 \in S_{ab}$$ such that $$r_1 \succ r_0$$. Now take $$a,b$$ such that $$r_0, r_1\in S_{ab}$$ and define for $$x\in S_{ab}$$.    
+    $$M_{ab}(x) = \frac{\mu_{ab}(x) - \mu_{ab}(r_0)}{\mu_{ab}(r_1) - \mu_{ab}(r_0)}$$   
+    Which will give us an [order preserving](#OP), [linear](#MP) structure with $$M_{ab}(r_0) = 0$$ and $$M_{ab}(r_1) = 1$$. Essentially we have just fixed two points and normalized the scale.
 [](-----------------------------)
 9. <a id="1.9"></a> Let $$f, g$$ be [order preserving](#OP), [linear](#MP) functions defined on $$S_{ab}$$, such that $$f(r_0) = g(r_0)$$ and $$f(r_1) = g(r_1)$$. Then it must be the case that $$f=g$$ on $$S_{ab}$$
   > **Proof**     
