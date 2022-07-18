@@ -141,8 +141,8 @@ I will prove vNM by proving the Mixture Space Theorem of Herstein & Milnor. This
   >     
   > Hence $$\mu_1 = \mu_2$$     
   > Q.E.D    
- 
 [](-----------------------------)
+
     We have obtained the [linear](#MP) and [order preserving](#OP) structure we had set out to construct.     
     Assuming $$a\succ b$$, let us take $$S_{ab} := \{a \succcurlyeq x \succcurlyeq b\}$$      
     Let us also define $$\mu_{ab}(x)$$ as $$x \sim \mu_{ab}(x) a + (1-\mu_{ab}(x)) b$$      
@@ -163,6 +163,7 @@ I will prove vNM by proving the Mixture Space Theorem of Herstein & Milnor. This
     Which will give us an [order preserving](#OP), [linear](#MP) structure with $$M_{ab}(r_0) = 0$$ and $$M_{ab}(r_1) = 1$$. Essentially we have just fixed two points and normalized the scale.
 
 [](-----------------------------)
+
 9. <a id="1.9"></a> Let $$f, g$$ be [order preserving](#OP), [linear](#MP) functions defined on $$S_{ab}$$, such that $$f(r_0) = g(r_0)$$ and $$f(r_1) = g(r_1)$$. Then it must be the case that $$f=g$$ on $$S_{ab}$$
   > **Proof**     
   > Let us take an arbitrary $$x\in S_{ab}$$      
