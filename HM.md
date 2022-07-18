@@ -68,7 +68,7 @@ modified: '2022-07-18T07:18:44.990Z'
 4.  <a id="1.4"></a> $$\forall a,b\in S : a \succ b \implies \forall \mu\in(0,1) : a \succ \mu a + (1-\mu)b \succ b$$
   > **Proof**   
   > Let us define $$\rho = \sum_1^{n(\rho)} \frac{\alpha_i}{2^i}$$ [$$\alpha\in\{0,1\}$$]   
-  > By successively applying [1.3](#1.3), we can say that $$\forall \rho_1, \rho_2 : \rho_2>\rho_1 \implies a \succ \rho_2 a + (1-\rho_2)b \succ \rho_1 a + (1-\rho_1)b \succ b$$ `[^0]`{=markdown}        
+  > By successively applying [1.3](#1.3), we can say that $$\forall \rho_1, \rho_2 : \rho_2>\rho_1 \implies a \succ \rho_2 a + (1-\rho_2)b \succ \rho_1 a + (1-\rho_1)b \succ b$$[^0]        
   > $$\forall \rho_1, \rho_2 : \exists \mu : 1 > \rho_2 > \mu > \rho_1 > 0$$    
   > $$a':= \rho_2 a + (1-\rho_2)b$$ and $$b':= \rho_1 a + (1-\rho_1)b$$   
   > $$\forall \rho' : \rho_2 \geq \rho' \geq \rho_1 \implies a' \succcurlyeq \rho' a + (1-\rho')b \succcurlyeq b'$$   
@@ -188,7 +188,7 @@ modified: '2022-07-18T07:18:44.990Z'
 [](-----------------------------)
 ## Appendix
 [](-----------------------------)
-### Other Definitions (Point-set Topology) `[^1]`{=markdown}
+### Other Definitions (Point-set Topology)[^1]
 - <a id="ball"></a> **Ball** : Let $$(X, d)$$ be a metric space, let us take $$x_0\in X$$ and $$r>0$$ then we can define $$B_{(X,d)}(x_0, r) := \{x\in X ~⎮~ d(x, x_0) < r\}$$
 
 - <a id="bounded-set"></a> **Bounded Set** : Let $$(X, d)$$ be a metric space and let $$E\subseteq X$$, then $$Y$$ is bounded if and only if there is a [ball](#ball) that contains the set, i.e $$\exists B(x,r)\subseteq X : Y\subseteq B(x,r)$$
@@ -205,7 +205,7 @@ modified: '2022-07-18T07:18:44.990Z'
 
 - <a id="adherent"></a> **Adherent Point** : Let $$(X, d)$$ be a metric space, let $$E\subseteq X$$ and let $$x_0\in X$$, then we can say that $$x_0$$ is an adherent point of $$E$$ if $$\forall r>0 : B(x_0, r)\cap E \neq \emptyset$$
 
-- <a id="limit-pt"></a> **Limit Point** : Let $$(X, d)$$ be a metric space, let $$E\subseteq X$$ and let $$x_0\in X$$, then we can say that $$x_0$$ is an limit point of $$E$$ if $$\forall r>0 : B(x_0, r)\setminus\{x_0\} \cap E \neq \emptyset$$ `[^2]`{=markdown}    
+- <a id="limit-pt"></a> **Limit Point** : Let $$(X, d)$$ be a metric space, let $$E\subseteq X$$ and let $$x_0\in X$$, then we can say that $$x_0$$ is an limit point of $$E$$ if $$\forall r>0 : B(x_0, r)\setminus\{x_0\} \cap E \neq \emptyset$$[^2]    
 
 - <a id="closure"></a>  **Closure Set** : The set of all [adherent points](#adherent) of $$E\subseteq X$$ is called the closure set of $$E$$, denoted by $$\overline{E}$$
 
@@ -317,16 +317,9 @@ modified: '2022-07-18T07:18:44.990Z'
   > That is to say that if a set contains all its limit points it will also contain all its adherent points     
   > Thus we can say that $$A$$ is closed $$\iff A$$ contains all its limit points     
   > Q.E.D     
-
-
-
-
-
-
-[](-----------------------------)
-`[^0]`{=markdown}: The way $$\rho$$ is defined, it is essentially converting back a binary representation of any arbitrary number between 0 \& 1. To reach all reals [to be more specific, to reach the non-terminating decimals], we just take the limit of these approximants. Refer to [this](https://en.wikipedia.org/wiki/Binary_number#Fractions) or [this](https://math.stackexchange.com/questions/4493880/real-numbers-as-limits-of-a-specific-sequence?noredirect=1#comment9427904_4493880) if confused
-`[^1]`{=markdown}: All definitions borrowed from <u>Analysis II, Tao, 2016</u>
-`[^2]`{=markdown}: Borrowed from [here](https://math.stackexchange.com/questions/1686220/difference-between-adherent-point-boundary-point-and-limit-point)
+[^0]: The way $$\rho$$ is defined, it is essentially converting back a binary representation of any arbitrary number between 0 \& 1. To reach all reals [to be more specific, to reach the non-terminating decimals], we just take the limit of these approximants. Refer to [this](https://en.wikipedia.org/wiki/Binary_number#Fractions) or [this](https://math.stackexchange.com/questions/4493880/real-numbers-as-limits-of-a-specific-sequence?noredirect=1#comment9427904_4493880) if confused
+[^1]: All definitions borrowed from <u>Analysis II, Tao, 2016</u>
+[^2]: Borrowed from [here](https://math.stackexchange.com/questions/1686220/difference-between-adherent-point-boundary-point-and-limit-point)
 
 
 
