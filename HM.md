@@ -317,6 +317,7 @@ modified: '2022-07-18T07:18:44.990Z'
   > That is to say that if a set contains all its limit points it will also contain all its adherent points     
   > Thus we can say that $$A$$ is closed $$\iff A$$ contains all its limit points     
   > Q.E.D     
+
 [^0]: The way $$\rho$$ is defined, it is essentially converting back a binary representation of any arbitrary number between 0 \& 1. To reach all reals [to be more specific, to reach the non-terminating decimals], we just take the limit of these approximants. Refer to [this](https://en.wikipedia.org/wiki/Binary_number#Fractions) or [this](https://math.stackexchange.com/questions/4493880/real-numbers-as-limits-of-a-specific-sequence?noredirect=1#comment9427904_4493880) if confused
 [^1]: All definitions borrowed from <u>Analysis II, Tao, 2016</u>
 [^2]: Borrowed from [here](https://math.stackexchange.com/questions/1686220/difference-between-adherent-point-boundary-point-and-limit-point)
