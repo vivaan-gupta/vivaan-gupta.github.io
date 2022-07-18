@@ -68,7 +68,7 @@ modified: '2022-07-18T07:18:44.990Z'
 4.  <a id="1.4"></a> $$\forall a,b\in S : a \succ b \implies \forall \mu\in(0,1) : a \succ \mu a + (1-\mu)b \succ b$$
   > **Proof**   
   > Let us define $$\rho = \sum_1^{n(\rho)} \frac{\alpha_i}{2^i}$$ [$$\alpha\in\{0,1\}$$]   
-  > By successively applying [1.3](#1.3), we can say that $$\forall \rho_1, \rho_2 : \rho_2>\rho_1 \implies a \succ \rho_2 a + (1-\rho_2)b \succ \rho_1 a + (1-\rho_1)b \succ b$$ [^2]    
+  > By successively applying [1.3](#1.3), we can say that $$\forall \rho_1, \rho_2 : \rho_2>\rho_1 \implies a \succ \rho_2 a + (1-\rho_2)b \succ \rho_1 a + (1-\rho_1)b \succ b$$  [^2]    
   > $$\forall \rho_1, \rho_2 : \exists \mu : 1 > \rho_2 > \mu > \rho_1 > 0$$    
   > $$a':= \rho_2 a + (1-\rho_2)b$$ and $$b':= \rho_1 a + (1-\rho_1)b$$   
   > $$\forall \rho' : \rho_2 \geq \rho' \geq \rho_1 \implies a' \succcurlyeq \rho' a + (1-\rho')b \succcurlyeq b'$$   
@@ -189,7 +189,7 @@ Which will give us an [order preserving](#OP), [linear](#MP) structure with $$M_
 [](-----------------------------)
 ## Appendix
 [](-----------------------------)
-### Other Definitions (Point-set Topology) [^0]
+### Other Definitions (Point-set Topology)  [^0]
 - <a id="ball"></a> **Ball** : Let $$(X, d)$$ be a metric space, let us take $$x_0\in X$$ and $$r>0$$ then we can define $$B_{(X,d)}(x_0, r) := \{x\in X ~⎮~ d(x, x_0) < r\}$$
 
 - <a id="bounded-set"></a> **Bounded Set** : Let $$(X, d)$$ be a metric space and let $$E\subseteq X$$, then $$Y$$ is bounded if and only if there is a [ball](#ball) that contains the set, i.e $$\exists B(x,r)\subseteq X : Y\subseteq B(x,r)$$
@@ -206,7 +206,7 @@ Which will give us an [order preserving](#OP), [linear](#MP) structure with $$M_
 
 - <a id="adherent"></a> **Adherent Point** : Let $$(X, d)$$ be a metric space, let $$E\subseteq X$$ and let $$x_0\in X$$, then we can say that $$x_0$$ is an adherent point of $$E$$ if $$\forall r>0 : B(x_0, r)\cap E \neq \emptyset$$
 
-- <a id="limit-pt"></a> **Limit Point** : Let $$(X, d)$$ be a metric space, let $$E\subseteq X$$ and let $$x_0\in X$$, then we can say that $$x_0$$ is an limit point of $$E$$ if $$\forall r>0 : B(x_0, r)\setminus\{x_0\} \cap E \neq \emptyset$$[^1]
+- <a id="limit-pt"></a> **Limit Point** : Let $$(X, d)$$ be a metric space, let $$E\subseteq X$$ and let $$x_0\in X$$, then we can say that $$x_0$$ is an limit point of $$E$$ if $$\forall r>0 : B(x_0, r)\setminus\{x_0\} \cap E \neq \emptyset$$ [^1]
 
 - <a id="closure"></a>  **Closure Set** : The set of all [adherent points](#adherent) of $$E\subseteq X$$ is called the closure set of $$E$$, denoted by $$\overline{E}$$
 
