@@ -140,7 +140,8 @@ I will prove vNM by proving the Mixture Space Theorem of Herstein & Milnor. This
   > This gives us a contradiction     
   >     
   > Hence $$\mu_1 = \mu_2$$     
-  > Q.E.D     
+  > Q.E.D    
+ 
 [](-----------------------------)
     We have obtained the [linear](#MP) and [order preserving](#OP) structure we had set out to construct.     
     Assuming $$a\succ b$$, let us take $$S_{ab} := \{a \succcurlyeq x \succcurlyeq b\}$$      
