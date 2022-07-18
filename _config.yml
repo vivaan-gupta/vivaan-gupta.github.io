@@ -7,5 +7,4 @@ markdown: kramdown
 kramdown:
   input: GFM
   math_engine: katex
-  hand_wrap: true
 
