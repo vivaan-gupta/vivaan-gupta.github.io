@@ -189,7 +189,8 @@ Which will give us an [order preserving](#OP), [linear](#MP) structure with $$M_
 [](-----------------------------)
 ## Appendix
 [](-----------------------------)
-### Other Definitions (Point-set Topology)  [^0]
+### Other Definitions (Point-set Topology) 
+[^0]
 - <a id="ball"></a> **Ball** : Let $$(X, d)$$ be a metric space, let us take $$x_0\in X$$ and $$r>0$$ then we can define $$B_{(X,d)}(x_0, r) := \{x\in X ~⎮~ d(x, x_0) < r\}$$
 
 - <a id="bounded-set"></a> **Bounded Set** : Let $$(X, d)$$ be a metric space and let $$E\subseteq X$$, then $$Y$$ is bounded if and only if there is a [ball](#ball) that contains the set, i.e $$\exists B(x,r)\subseteq X : Y\subseteq B(x,r)$$
