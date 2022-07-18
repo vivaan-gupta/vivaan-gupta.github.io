@@ -1,6 +1,6 @@
 ---
 tags: [Decision Theory, Standard Choice]
-title: 'Choice[^0]'
+title: 'Standard Choice'
 created: '2022-06-19T07:25:10.236Z'
 modified: '2022-06-26T13:04:54.529Z'
 ---
