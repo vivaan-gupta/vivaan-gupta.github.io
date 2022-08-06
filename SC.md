@@ -283,7 +283,7 @@ $$\forall x,y\in X : x\succ y \implies \exists \epsilon>0 : \forall x', y'\in X 
   > Suppose $$x\succ y$$ and consider all elements $$\forall a \in [0,1] : ax + (1-a)y$$ [these elemets make a line segment between $$x$$ and $$y$$] 
   > Given continuity of $$\succcurlyeq$$, $$\exists \epsilon>0 : \forall y'\in X : d(y',y)<\epsilon \implies x \succ y'$$
   > Some of these $$y'$$ will be on the line joining $$x,y$$
-  > Consider the upper contour set of $$x$$ $$NWT(x) := \{a\in[0,1] : ax + (1-a)y \succcurlyeq x\}$$
+  > Consider the upper contour set of $$x$$: $$NWT(x) := \{a\in[0,1] : ax + (1-a)y \succcurlyeq x\}$$
   > $$a_1 := \inf(NWT(x))$$
   > Given $$x\succ y$$, we can say that $$a_1 > 0$$
   > $$x_1 := a_1 x + (1-a_1)y$$, note that this $$x_1$$ is also a point on the line $$xy$$
