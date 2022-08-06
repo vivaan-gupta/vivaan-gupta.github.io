@@ -220,7 +220,7 @@ Go to [$$\succ$$ and $$\sim$$](#strict-preference-and-indifference)
 ## Infinite Sets and Utility Representation
 Objective is to prove that:
 <div style="background-color:rgba(100, 100, 100, 0.3); text-align:center; vertical-align: middle; padding:15px 50px;">
-If $$\succcurlyeq$$ is a complete and transitive binary relation on an arbitrary set $$X$$, then some function $$u: X\to \mathbb{R}$$ exists that represents $$\succcurlyeq$$; i.e $$x\succcurlyeq y \iff u(x) \geq u(y)$$
+If $\succcurlyeq$ is a complete and transitive binary relation on an arbitrary set $X$, then some function $u: X\to \mathbb{R}$ exists that represents $\succcurlyeq$; i.e $x\succcurlyeq y \iff u(x) \geq u(y)$
 </div>
 
 [](----------------------------------------)
@@ -283,7 +283,7 @@ $$\forall x,y\in X : x\succ y \implies \exists \epsilon>0 : \forall x', y'\in X 
   > Suppose $$x\succ y$$ and consider all elements $$\forall a \in [0,1] : ax + (1-a)y$$ [these elemets make a line segment between $$x$$ and $$y$$] 
   > Given continuity of $$\succcurlyeq$$, $$\exists \epsilon>0 : \forall y'\in X : d(y',y)<\epsilon \implies x \succ y'$$
   > Some of these $$y'$$ will be on the line joining $$x,y$$
-  > Consider the upper contour set of x $$NWT(x) := \{a\in[0,1] : ax + (1-a)y \succcurlyeq x\}$$
+  > Consider the upper contour set of $$x$$ $$NWT(x) := \{a\in[0,1] : ax + (1-a)y \succcurlyeq x\}$$
   > $$a_1 := \inf(NWT(x))$$
   > Given $$x\succ y$$, we can say that $$a_1 > 0$$
   > $$x_1 := a_1 x + (1-a_1)y$$, note that this $$x_1$$ is also a point on the line $$xy$$
@@ -319,7 +319,7 @@ $$\forall x,y\in X : x\succ y \implies \exists \epsilon>0 : \forall x', y'\in X 
 - <a id="R-asym"></a> **Asymmetry** : $$\forall x,y\in S : xRy \implies \neg yRx$$
 - <a id="R-sym"></a> **Symmetry** : $$\forall x,y\in S : xRy \implies yRx$$
 - <a id="R-negtrans"></a> **Negatively Transitive** : $$\forall x,y,z\in S : xRz \implies [xRy \lor yRz]$$ or its contrapositive $$\forall x,y,z\in S : [\neg xRy \land \neg yRz] \implies \neg xRz$$
-- <a id="countable"></a> **Countable** : A set $$S$$ is countable if $$⎮S⎮ \leq \aleph_0$$ <div style="background-color:rgba(255, 255, 255, 0); text-align:center; vertical-align: middle;"><b>alternatively</b></div> A set $$S$$ is countable if there a bijective mapping between $$S$$ and $$\mathbb{N}$$
+- <a id="countable"></a> **Countable** : A set $$S$$ is countable if $$⎮S⎮ \leq \aleph_0$$ <b>alternatively</b> A set $$S$$ is countable if there a bijective mapping between $$S$$ and $$\mathbb{N}$$
 - <a id="dense"></a> **Order-Dense** : $$\forall x,y \in X : x \succ y \exists : s \in S : x \succ s \succ y$$, then we say that S is $$\succcurlyeq$$-dense (or, order-dense) in X[^3] 
 - <a id="preorder"></a> **Pre-Order** : A binary relation $$R$$ which satisfies [reflexivity](#R-reflex) and [transitivity](#R-trans)[^5]
 - <a id="weakorder"></a> **Weak-Order** : A binary relation $$R$$ which satisfies [completeness](#R-comp) and [transitivity](#R-trans)[^5]
