@@ -320,7 +320,7 @@ $$\forall x,y\in X : x\succ y \implies \exists \epsilon>0 : \forall x', y'\in X 
 - <a id="R-sym"></a> **Symmetry** : $$\forall x,y\in S : xRy \implies yRx$$
 - <a id="R-negtrans"></a> **Negatively Transitive** : $$\forall x,y,z\in S : xRz \implies [xRy \lor yRz]$$ or its contrapositive $$\forall x,y,z\in S : [\neg xRy \land \neg yRz] \implies \neg xRz$$
 - <a id="countable"></a> **Countable** : A set $$S$$ is countable if $$⎮S⎮ \leq \aleph_0$$ <b>alternatively</b> A set $$S$$ is countable if there a bijective mapping between $$S$$ and $$\mathbb{N}$$
-- <a id="dense"></a> **Order-Dense** : $$\forall x,y \in X : x \succ y \exists : s \in S : x \succ s \succ y$$, then we say that S is $$\succcurlyeq$$-dense (or, order-dense) in X[^3] 
+- <a id="dense"></a> **Order-Dense** : $$\forall x,y \in X : x \succ y \implies \exists s \in S : x \succ s \succ y$$, then we say that S is $$\succcurlyeq$$-dense (or, order-dense) in X[^3] 
 - <a id="preorder"></a> **Pre-Order** : A binary relation $$R$$ which satisfies [reflexivity](#R-reflex) and [transitivity](#R-trans)[^5]
 - <a id="weakorder"></a> **Weak-Order** : A binary relation $$R$$ which satisfies [completeness](#R-comp) and [transitivity](#R-trans)[^5]
 - <a id="linorder"></a> **Linear-Order** : A binary relation $$R$$ which satisfies [completeness](#R-comp), [transitivity](#R-trans) and [anti-symmetric](#R-antisym)[^5]
